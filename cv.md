@@ -15,5 +15,39 @@ I work as a forensic expert and I want to gain new knowledge in the field of fro
 * [JS basic](https://stepik.org/cert/64173)
 * [R](https://stepik.org/cert/190777)
 ***
-
+# Samples of code:
+* JS
+```
+function testArray(a, b) {
+    var sum = 0;
+    for (var i = 0; i < a.length; i++){
+      sum += a[i];
+    }
+    for (var j = 0; j < b.length; j++){
+      sum += b[j]
+    }
+    return sum;
+}
+```
+* Python
+```
+def update_dictionary(d, key, value):
+    # put your python code here
+    if key in d:
+        d[key].append(value)
+    elif 2*key in d:
+        d[2*key].append(value)
+    else:
+        d[2*key] = []
+        d[2*key].append(value)
+```
+* R
+```
+find_closest <- function(v, n) {
+a <- abs(v - n)
+    res <- which(a == min(a))
+    return (res)
+}
+```
+***
 
