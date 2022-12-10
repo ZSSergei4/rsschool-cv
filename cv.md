@@ -50,4 +50,14 @@ a <- abs(v - n)
 }
 ```
 ***
+# __Education and courses:__
+
+* Freecodecamp
+* Stepik.org
+* HTMLAcademy
+* learn.javascript.ru
+***
+## __Languages:__
+English - A2.
+***
 
