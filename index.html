@@ -7,31 +7,91 @@
     <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
-<body>
-    
+<body>  
     <header class="head">
-        <img src="./img/2022-12-14 195835.png" alt="Я">
-        <nav>
-            <ul>
-                <li class="menu"><a href="">Contacts</a></li>
-                <li class="menu"><a href="">About</a></li>
-                <li class="menu"><a href="">Skills</a></li>
-                <li class="menu"><a href="">Courses</a></li>
-                <li class="menu"><a href="">Samples</a></li>
-                <li class="menu"><a href="">Language</a></li>
-            </ul>
-        </nav>
+        <h1>Sergey Zinchuk</h1>
+        <h2>Junior frontend developer</h2>
     </header>
-    <main>
-        <section><h1>Sergey Zinchuk</h1></section>
-        <section class="About"></section>
-        <section class="skills"></section>
-        <section class="samples"></section>
-        <section class="courses"></section>
-        <section class="language"></section>
-    </main>
-    <footer>
-        <div class="foot"><a href="">Me on Github</a></div>
+    <section class="col1">
+        <div class="logo"><img src="./img/2022-12-145.png" alt="Я"></div>
+        <article class="about">
+            <h2>About me</h2>
+            <p>
+                I work as a forensic expert and I want to gain new knowledge in the field of front-end development.
+            </p>
+        </article>
+        <article class="code">
+            <div class="js">
+            <h3>JavaScript</h3>
+            <pre><code>
+                function testArray(a, b) {
+                    var sum = 0;
+                    for (var i = 0; i &lt a.length; i++){
+                      sum += a[i];
+                    }
+                    for (var j = 0; j &lt b.length; j++){
+                      sum += b[j]
+                    }
+                    return sum;
+                }
+            </code></pre></div>
+
+            <div class="python">
+            <h3>Python</h3>
+            <pre><code>
+                def update_dictionary(d, key, value):
+                    # put your python code here
+                    if key in d:
+                        d[key].append(value)
+                    elif 2*key in d:
+                        d[2*key].append(value)
+                    else:
+                        d[2*key] = []
+                        d[2*key].append(value)
+            </code></pre></div>
+
+        </article>
+     </section>
+     <section class="col2">
+        <article class="cont">
+        <h2>Contacts</h2>
+        <ul>
+            <li><strong>Phone:</strong> +7909-575-62-31</li>
+            <li><strong>E-mail:</strong> 03goose03@gmail.com</li>
+            <li><strong>Github:</strong> ZSSergei4</li>
+            <li><strong>Location:</strong> Pskov, Russia</li>
+        </ul>
+        </article>
+        
+        <article class="edu">
+            <h2>My courses and certificates</h2>
+            <ul>
+                <li><a href="https://stepik.org/cert/20383" target="_blank">Python</a></li>
+                <li><a href="https://stepik.org/cert/64173" target="_blank">JavaScript</a></li>
+            </ul>
+
+        </article>
+        <article>
+            <h2>Education</h2>
+            <ul>
+                <li><a href="http://stepic.org/" target="_blank">Courses on Stepik</a></li>
+                <li><a href="" target="_blank">Freecodecamp</a></li>
+                <li><a href="https://learn.javascript.ru/" target="_blank">JavaScript.ru</a></li>
+            </ul>
+        </article>
+          <article class="lang">
+             <h2>Languages</h2>
+             <p>English - A2</p>
+          </article>
+    </section>
+    
+    <footer class="clf">
+        <a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool"></a>
+            <ul class="hr">
+                <li class="menu"><a href="https://github.com/ZSSergei4" target="_blank">Github</a></li>
+                <li class="menu"><a href="https://www.linkedin.com/in/sergey-zinchuk-b8504ba7/" target="_blank">LinkedIn</a></li>
+                <li class="menu"><a href="https://vk.com/sergei480" target="_blank">VK</a></li>
+            </ul>
     </footer>
 
 </body>

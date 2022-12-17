@@ -1,38 +1,72 @@
-section, header, footer, nav {
-    display:block;
+saside, article, section, header, footer, nav {
+	display: block;
 }
-
+div, section, article, h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
 html, body {
-    margin: 0;
-    padding: o;
+	margin: 0;
+	padding: 0;
 }
-
 html {
-    background: #ccc;
+	background: rgb(123, 121, 143);
 }
 
 body {
-    width: 1400px;
-    background: #0c80c4;
-    margin-left: 220px;
+    width: 80%;
+    background: #fff;
+    margin: 0 auto 2em;
+    font: 100% Georgia, "Times New Roman", Times, serif;
 }
 
-nav {
-    background: rgb(0, 0, 0);
-    width: 1000px;
-    height: 50px;
-    float: right;
-
+header {
+	background: rgb(76, 67, 65);
+	margin-bottom: 16px;
+	height: 96px;
+	padding: 32px 0 0 2%;
+}
+.col1 {
+	float: left;
+	padding-left: 2%;
+	width: 60%;
+}
+.col2 {
+	float: right;
+	width: 34%;
+	padding-right: 2%;
+	font-size: 90%;
+	line-height: 1.6;
+}
+footer {
+	background: rgb(100, 98, 102);
+	height: 80px;
+	clear: both;
+    position: relative;
 }
 
-ul>li>a {display: block;}
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    position: absolute;
+    float: left;
+    left: 150px;
+    top: 20px;
+   }
+   ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+   }
 
-.menu {
-    display: inline-block;
-    margin-right: 50px;
-}
+   a>img {
+    width:10%;
+    float: left;
+   }
 
-img {
-    width: 250px;
-    height: 250px;
+.clf::after {
+    content: "";
+    display: block;
+    clear: both;
 }
