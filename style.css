@@ -8,3 +8,43 @@ html {
   body {
     margin: 0;
   }
+header {
+    max-width:144rem;
+    max-height: 9rem;
+    background-color: #0C0C0E;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding:2rem;
+    margin: 0 auto;
+    margin-bottom: 0;
+    box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.965)
+  }
+.login {
+  background-image: url(./img/header/icon_profile.png);
+  width: 2.8rem;
+  height: 2.8rem;
+ 
+ }
+ 
+  a, h2 {
+    color: #FFF;
+    font-family: Forum;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+  }
+h1 {
+color: #FFF;
+text-align: center;
+font-family: Forum;
+font-size: 4rem;
+font-style: normal;
+font-weight: 400;
+line-height: 5rem; /* 125% */
+letter-spacing: 0.3rem;
+text-transform: uppercase;
+margin: 0;
+}
